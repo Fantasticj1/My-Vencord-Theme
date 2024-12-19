@@ -59,6 +59,7 @@
   --button-action-color: #000;
   --button-text-color: var(--accent-text-color);
   --button-radius: 16px;
+  --button-bg: url(https://64.media.tumblr.com/cb5837769df13e058439bb900e050d82/5d5fed4ce0e29edd-b9/s540x810/060132cc1f5d53682d3d2dff2579c99f9231b794.gif);
   --switch-slider-color: hsla(218,4.6%,46.9%,0.85);
   --switch-knob-color: hsl(0,0%,13%);
   --popout-color: rgba(0,0,0,0.55);
@@ -4611,7 +4612,7 @@ body {
   --card-color: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-6));
 }
 .custom-profile-theme .lookFilled_dd4f85 {
-  --button-background: var(--profile-gradient-button-color);
+  --button-background: var(--button-bg);
   --button-text-color: var(--white-500);
   --accent-button-action: var(--white-500);
 }
